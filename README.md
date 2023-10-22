@@ -15,11 +15,14 @@ Using the np.linalg.solve(), we can find the solutions.
 End the program
 ## Program
 ```py
+#Program to find the solution for the given linear equations.
+#Developed by: SUROTHAAMAN R
+#RegisterNumber:23008504
 import numpy as np
-A=np.array([[5,-3,-10],[2,2,-3],[-3,-1,5]])
-B=np.array([-9,4,-1])
-result=np.linalg.solve(A,B)
-print(result)
+a=np.array([[1,3],[2,5]])
+b=np.array([5,-3])
+soln=np.linalg.solve(a,b)
+print(soln)
 ````
 ## Output:
 ![Screenshot (28)](https://github.com/surothaaman/-SOLUTION-TO-A-SYSTEM-OF-LINEAR-EQUATIONS/assets/133313653/c954d09a-4c61-47bc-97a9-5f7f5df5d541)
